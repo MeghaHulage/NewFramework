@@ -1,0 +1,19 @@
+
+
+
+
+<suite name="Suite1" verbose="1" parallel="false" >
+  <test name="Test" preserve-order="true" >
+    <classes>
+       <class name="com.velocity.qa.testcases.SearchMmDevAgency" />
+       <class name="com.velocity.qa.testcases.VerifyHttpStatusOfUrl" />
+       <class name="com.velocity.qa.testcases.VerifySrcUrlDomain" />
+        <class name="com.velocity.qa.testcases.VerifyGTMCode" />
+         <class name="com.velocity.qa.testcases.VerifySEOLocation" />
+          <class name="com.velocity.qa.testcases.VerifyNoIndex" />
+           <class name="com.velocity.qa.testcases.VerifyH1tag" />
+       
+       
+    </classes>
+  </test>
+</suite>
